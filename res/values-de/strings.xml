@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yoo</string>
+    
+    
+    
+    <string name="contact_list">Kontakte</string>
+    <string name="chat_list">Chats</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="contact_details">Kontakt Informationen</string>
+    <string name="contact_phones">Rufnummern</string>
+    <string name="contact_emails">Emails</string>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachname</string>
+    <string name="company">Firma</string>
+    <string name="job_title">Berufstitel</string>
+    <string name="invite_by_email">Einladen via E-Mail</string>
+    <string name="invite_by_sms">Einladen via SMS</string>
+    <string name="invite_title">Join me on YOO!</string>
+    <string name="invite_body">YOO ist eine Chat und Telefonie App. Mit YOO kannst du kostenlos länderübergreifend telefonieren. Installieren Sie es aus https://appsto.re/de/4ZmH1.i</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="done">OK</string>
+    <string name="last_online">Zuletzt Online:</string>
+    <string name="today">Heute</string>
+    <string name="chat_prompt">What\'s up?</string>
+    <string name="send">Senden</string>
+    <string name="post_item">Post Item</string>
+    <string name="picture">Bild</string>
+    <string name="location">Ort</string>
+    <string name="make_call">Make Call</string>
+    <string name="contact">Kontakt</string>
+    <string name="voice_message">Nachricht aufnehmen</string>
+    <string name="forward_message">Nachricht weiterleiten</string>   
+    <string name="action_broadcast">Broadcast</string>
+    <string name="new_group">Neue Gruppe</string>
+    <string name="enter_group_name">Gruppenname hier eingeben.</string>
+    <string name="create">Erstellen</string>
+    <string name="action_startchat">Neuer Chat</string>
+    <string name="nickname">Profil</string>
+    <string name="user_status">Status</string>
+    <string name="background">Hintergrund</string>
+    <string name="stats_messages">Nachrichten</string>
+    <string name="stats_network">Netzwerk</string>
+    <string name="about">Über</string>
+    <string name="reset_all">Alles zurücksetzen</string>
+    <string name="confirm_reset">Are you sure you want to reset all ?</string>
+    <string name="change_profile_picture">Profilbild ändern</string>
+    <string name="TAKE_PHOTO">Bild erstellen</string>
+    <string name="FROM_GALLERY">Bilderbibliothek</string>
+    <string name="FACEBOOK_PROFILE">Facebook Profil</string>
+    <string name="reset_confirm">Möchtest du wirklich alle Daten löschen?</string>
+    <string name="WRONG_NICKNAME">Nickname ungültig</string>
+    <string name="WRONG_GROUPNAME">Wrong group name</string>
+    <string name="action_next">Next</string>
+    <string name="action_go_back">Zurück</string>
+    <string name="enter_nickname_name">Bitte gebe deinen Profilnamen ein:.</string>
+    <string name="select_your_country">Bitte wähle dein Land:</string>
+    <string name="enter_your_phone_number">Bitte gebe deine Handynummer ein:</string>
+    <string name="enter_activation_code">Bitte gebe den Aktivierungscode ein, welchen du via SMS erhalten hast:</string>
+    <string name="invalid_code">Aktivierungscode ungültig</string>
+    <string name="WRONG_NUMBER">Handynummer ungültig</string>
+    <string name="action_register">Registrierung</string>
+    <string name="nickname_change">Profil ändern</string>
+    <string name="enter_nickname">Bitte gebe deinen neuen Nickname ein.</string>
+    <string name="save">Speichern</string>
+    <string name="ACTION">Aktion</string>
+	<string name="CONNECTING">Verbinde</string>
+    <string name="LOGIN">Anmeldung</string>
+	<string name="PASSWORD">Passwort</string>
+	<string name="LOGIN_ERROR">Anmeldefehler</string>
+	<string name="VIEW">Ansicht</string>
+	<string name="share_contact">Freigegebener Kontakt:</string>
+    <string name="Received_Contact">Erhaltener Kontakt:</string>
+	<string name="send_contact">Kontakt senden</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="edit">Modifier</string>
+    <string name="edit_group">Gruppe ändern</string>
+    <string name="group_members">Gruppenmitglieder</string>
+    <string name="list_country">Land</string>
+    <string name="CHAT_WITH">Chat mit</string> 
+    <string name="STATS_BYTES_FORMAT">llu Bytes empfangen\nllu Bytes verschickt</string> 
+    <string name="STATS_MESSAGES_FORMAT">ld empfangen\nld verschickt</string> 
+    <string name="PICTURESET_TITLE">ld von ld</string> 
+    <string name="contact_us">Kontaktiere uns</string>
+    <string name="remove_image">Bild löschen</string>
+    <string name="REMOVE_IMAGE_PROMPT"> Willst du das Bild wirklich löschen?</string>
+    <string name="remove">Löschen</string>
+    <string name="crop_image2">Bild bearbeiten</string>
+    <string name="current_location2">Aktueller Aufenthaltsort</string>
+    <string name="select_background">Wähle Hintergrund</string> 
+    <string name="record_message">Nachricht aufnehmen</string>
+    <string name="start_recording">Aufnehmen</string>
+    <string name="pause_recording">Pause</string>
+    <string name="nickname_length">Dein Nickname muss mindestens 3 Zeichen enthalten</string>
+    <string name="groupname_length">The group name must have a minimum of 3 characters and a maximum of 30 characters.</string>
+    <string name="error_no_conference_number">Number is not available.\nContact your admin to check the Server.</string>
+    <string name="calling">✆ %1$s anrufen</string>
+    <string name="call_from">✆ Anruf von %1$s\n%2$s</string>
+    <string name="call_accept">Annehmen</string>
+    <string name="call_decline">Ablehnen</string>
+    <string name="chat">plaudern</string>
+    <string name="recent">Kürzlich</string>
+    <string name="two_calls">Kann nicht zwei Anrufe an der Saami Zeit.</string>
+    <string name="save_image">Spei</string>
+    <string name="image_saved">Bild wird gespeichert.</string>
+    <string name="hide_status">Status verbergen</string>
+    
+    
+    <string name="states_send">Senden</string>
+    <string name="states_received">Empfangen</string>
+    <string name="action_contacts">Kontakte</string>
+    <string name="action_search">Suche</string>
+    
+    <string name="register_step_title">Registrieren - Schritt %1$s</string>
+    <string name="user_information">Benutzerinformation</string>
+    <string name="chat_settings">Chat Einstellungen</string>
+    <string name="statistics">Statistik</string>
+    <string name="post_picture">Bild senden</string>
+    <string name="nearby_location2">Orte in der Nähe</string>
+    <string name="group_member">Bitte mindestens eine Person auswählen.</string>
+    <string name="install_google_play_service">Bitte installieren Sie Google Play Service um Google Maps zu unterstützen.</string>
+    
+    <string name="loading">Laden&#8230;</string>
+    <string name="please_wait">Bitte warten Sie&#8230;</string>
+    <string name="delete_chat">Chat löschen</string>
+    <string name="delete_group">Gruppe löschen</string>
+    <string name="confirm_delete">Sind Sie sicher, dass %1$s gelöscht werden soll?</string>
+    
+    <string name="error_connection">Verbindungsproblem, versuchen Sie es nochmal!</string>
+    <string name="improve_location_search">Aktivieren Sie die Internetverbindungen, um die Standortsuche zu verbessern</string>
+    <string name="no_internet_connect">Keine Internetverbindung.</string>
+    <string name="search_hint">Suche</string>
+    <string name="search_no_results">Keine Ergebnisse</string>
+    
+    <string name="submit">Submit</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Abbrechen</string>    
+    <string name="action_delete">Löschen</string>
+    <string name="action_yes">Ja</string>
+    <string name="action_no">Nein</string>
+    <string name="action_close">Schließen</string> <!-- Schliessen is a common misspelling; did you mean Schließen -->
+    
+    <string name="post_record">Senden</string>
+    <string name="play_record">Abspielen</string> <!-- spielen -->
+    <string name="stop_record">STOP</string>
+    <string name="reset_record">Reset</string>
+    <string name="browse_image">Durchsuchen</string>
+    <string name="crop_image">Anpassen</string>
+    <string name="rotate_image">Drehen</string> <!-- drehen -->
+    <string name="edit_picture">Bild bearbeiten</string>
+    <string name="click_to_edit_picture">Klicken Sie auf das Foto zum bearbeiten</string>
+    <string name="image_saved_fail">Bild speichern gescheitert.</string>   
+    
+  
+    <string name="current_location">Aktueller Ort</string>
+    <string name="nearby_location">Orte in der Nähe</string>
+    <string name="from">Von</string>
+    <string name="new_photo_shared_by">Neues Foto von</string>
+    <string name="new_contact_shared_by">Neuer Kontakt von</string>
+    <string name="new_location_shared_by">Neuer Ort von</string>
+    <string name="new_voice_message_shared_by">Neue Sprachnachricht von</string>
+    <string name="call_from_">Anruf von</string>
+    
+    
+    <string name="wifi_enable">Wifi aktiviert.</string>
+    <string name="mobile_enable">Mobile Daten aktiviert.</string>
+    <string name="map_view">Karte anzeigen</string>
+    <string name="recent_item">Recent Item</string>
+    <string name="unknown_image">Unknown image</string>
+    <string name="load_photo_failed">load photo failed</string>
+    <string name="yoo_message">Neue messasge</string>
+    <string name="yoo_messages">Neue Nachrichten</string>
+
+</resources>

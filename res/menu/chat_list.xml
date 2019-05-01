@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fellow.yoo.MainActivity" >
+
+    <item
+        android:id="@+id/action_chatlist_menu"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_startchat"/>
+
+</menu>

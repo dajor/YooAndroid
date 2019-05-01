@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="52dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:contentDescription="@string/app_name" 
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop" 
+        android:id="@android:id/icon"/>
+    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_gravity="center_vertical"
+	        android:layout_margin="4dp"
+			android:orientation="vertical">
+    	<TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:id="@android:id/text1"/>
+    	<TextView 
+    	    android:textColor="@android:color/darker_gray"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:id="@android:id/text2"/>
+    	
+    </LinearLayout>
+    <TextView 
+        android:visibility="gone"
+        android:background="@drawable/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_margin="4dp"
+        android:gravity="center_vertical"
+	    android:layout_gravity="center_vertical"
+	    android:id="@+id/badge"/>
+</LinearLayout>

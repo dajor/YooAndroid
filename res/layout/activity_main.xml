@@ -1,0 +1,33 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<com.fellow.yoo.utils.HackyDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.fellow.yoo.MainActivity" >
+    
+
+    <FrameLayout
+        android:paddingTop="55dp"
+        android:dividerHeight="0px"
+        android:background="@color/white"
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+    
+     <ListView
+        android:isScrollContainer="false" 
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/darkgray"
+        android:choiceMode="singleChoice"
+        android:divider="#857F8C"
+        android:dividerHeight="0px" />
+     
+     
+
+</com.fellow.yoo.utils.HackyDrawerLayout>

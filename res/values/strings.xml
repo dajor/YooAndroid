@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yoo</string>
+    
+    
+    
+    <string name="contact_list">Contacts</string>
+    <string name="chat_list">Chats</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="contact_phones">Phones</string>
+    <string name="contact_emails">Emails</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="company">Company</string>
+    <string name="job_title">Job Title</string>
+    <string name="invite_by_email">Invite by e-mail</string>
+    <string name="invite_by_sms">Invite by SMS</string>
+    <string name="invite_title">Join me on YOO!</string>
+    <string name="invite_body">YOO is a free and powerful messaging application. Install it from http://yoo-app.com</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="last_online">Last Online : </string>
+    <string name="today">Today</string>
+    <string name="chat_prompt">What\'s up?</string>
+    <string name="send">Send</string>
+    <string name="post_item">Post Item</string>
+    <string name="picture">Pictures</string>
+    <string name="location">Location</string>
+    <string name="make_call">Make Call</string>
+    <string name="contact">Contact</string>
+    <string name="voice_message">Voice Message</string>
+    <string name="forward_message">Forward message</string>   
+    <string name="action_broadcast">Broadcast</string>
+    <string name="new_group">New Group</string>
+    <string name="enter_group_name">Please enter the group name.</string>
+    <string name="create">Create</string>
+    <string name="action_startchat">New Chat</string>
+    <string name="nickname">Profile name</string>
+    <string name="user_status">Status</string>
+    <string name="background">Background</string>
+    <string name="stats_messages">Messages</string>
+    <string name="stats_network">Network</string>
+    <string name="about">About</string>
+    <string name="reset_all">Reset All</string>
+    <string name="confirm_reset">Are you sure you want to reset all ?</string>
+    <string name="change_profile_picture">Change Profile Picture.</string>
+    <string name="TAKE_PHOTO">Take a photo</string>
+    <string name="FROM_GALLERY">Choose from gallery</string>
+    <string name="FACEBOOK_PROFILE">Facebook Profile</string>
+    <string name="reset_confirm">Are you sure you want to reset all ?</string>
+    <string name="WRONG_NICKNAME">Wrong nickname</string>
+    <string name="WRONG_GROUPNAME">Wrong group name</string>
+    <string name="action_next">Next</string>
+    <string name="action_go_back">Go back</string>
+    <string name="enter_nickname_name">Please enter your profile name.</string>
+    <string name="select_your_country">Please select your country</string>
+    <string name="enter_your_phone_number">Please enter your phone number</string>
+    <string name="enter_activation_code">Please enter the activation code you\'ve received by SMS</string>
+    <string name="invalid_code">Wrong Code</string>
+    <string name="WRONG_NUMBER">Wrong number</string>
+    <string name="action_register">Register</string>
+    <string name="nickname_change">Profile name Change</string>
+    <string name="enter_nickname">Please enter your profile name</string>
+    <string name="save">Save</string>
+    <string name="ACTION">Action</string>
+	<string name="CONNECTING">Connecting</string>
+    <string name="LOGIN">Login</string>
+	<string name="PASSWORD">Password</string>
+	<string name="LOGIN_ERROR">Login Error</string>
+	<string name="VIEW">View</string>
+	<string name="share_contact">Shared Contact:</string>
+    <string name="Received_Contact">Received Contact:</string>
+	<string name="send_contact">Send Contact</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="edit">Edit</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="group_members">Group Members</string>
+    <string name="list_country">Country</string>
+    <string name="CHAT_WITH">Chat with</string> 
+    <string name="STATS_BYTES_FORMAT"></string> 
+    <string name="STATS_MESSAGES_FORMAT"></string> 
+    <string name="PICTURESET_TITLE"></string> 
+    <string name="contact_us">Contact us</string>
+    <string name="remove_image">Remove Image</string>
+    <string name="REMOVE_IMAGE_PROMPT"> Are you sure you want to remove that image ?</string>
+    <string name="remove">Remove</string>
+    <string name="crop_image2">Crop Image</string>
+    <string name="current_location2">Current Location</string>
+    <string name="select_background">Select Background</string> 
+    <string name="record_message">Record Message</string>
+    <string name="start_recording">Record</string>
+    <string name="pause_recording">Pause</string>
+    <string name="nickname_length">Your profile name must have a minimum of 3 characters and a maximum of 30 characters.</string>
+    <string name="groupname_length">The group name must have a minimum of 3 characters and a maximum of 30 characters.</string>
+    <string name="error_no_conference_number">Number is not available.\nContact your admin to check the Server.</string>
+    <string name="calling">✆ Calling %1$s</string>
+    <string name="call_from">✆ Call from %1$s\n%2$s</string>
+    <string name="call_accept">Accept</string>
+    <string name="call_decline">Decline</string>
+    <string name="chat">Chat</string>
+    <string name="recent">Recent</string>
+    <string name="two_calls">Cannot make two calls at the same time.</string>
+    <string name="save_image">Save</string>
+    <string name="image_saved">Image is saved.</string>
+    <string name="hide_status">Hide Status</string>
+    
+    <string name="states_send">send</string>
+    <string name="states_received">received</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_search">Search</string>
+    
+    <string name="register_step_title">Register - Step %1$s</string>
+    <string name="user_information">User Information</string>
+    <string name="chat_settings">Chat Settings</string>
+    <string name="statistics">Statistics</string>
+    <string name="post_picture">Post Picture</string>
+    <string name="nearby_location2">Nearby Location</string>
+    <string name="group_member">Plase select at lease 1 member.</string>
+    <string name="install_google_play_service">Please install google play service to support google map view.</string>
+    
+    <string name="loading">Loading&#8230;</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="confirm_delete">Are you sure you want to delete %1$s ?</string>
+    
+    <string name="error_connection">Connection problem, please try again!</string>
+    <string name="improve_location_search">Connect internet, to improve location search</string>
+    <string name="no_internet_connect">No internet connection.</string>
+    <string name="search_hint">Search</string>
+    <string name="search_no_results">No Results</string>
+    
+    <string name="submit">Submit</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>    
+    <string name="action_delete">Delete</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_close">Close</string>
+    
+    <string name="post_record">Post</string>
+    <string name="play_record">Play</string>
+    <string name="stop_record">Stop</string>
+    <string name="reset_record">Reset</string>
+    <string name="browse_image">Browse</string>
+    <string name="crop_image">Crop</string>
+    <string name="rotate_image">Rotate</string>
+    <string name="edit_picture">Edit Picture</string>
+    <string name="click_to_edit_picture">Click on picture to edit</string>
+    <string name="image_saved_fail">Save image fail.</string>   
+    
+    
+    <string name="current_location">Current Location</string>
+    <string name="nearby_location">Nearby Location</string>
+    <string name="from">From</string>
+    <string name="new_photo_shared_by">New photo shared by</string>
+    <string name="new_contact_shared_by">New contact shared by</string>
+    <string name="new_location_shared_by">New location shared by</string>
+    <string name="new_voice_message_shared_by">New voice message shared by</string>
+    <string name="call_from_">Call From</string>
+    
+    
+    <string name="wifi_enable">Wifi enabled.</string>
+    <string name="mobile_enable">Mobile data enabled.</string>
+    <string name="map_view">Map View</string>
+    <string name="recent_item">Recent Item</string>
+    <string name="unknown_image">Unknown image</string>
+    <string name="load_photo_failed">load photo failed</string>
+    <string name="yoo_message">new messasge</string>
+    <string name="yoo_messages">new messasges</string>
+    <string name="yoo_info">Version %1$s\nCopyright 2014 - Fellow Consulting</string>
+    <string name="yoo_info_link">http://www.apache.org/licenses/LICENSE-2.0</string>
+    <string name="yoo_info2">		
+        Licensed under the Apache License, Version 2.0 (the "License");
+		you may not use this file except in compliance with the License.
+		You may obtain a copy of the License at</string>
+    <string name="yoo_info3">			
+        Unless required by applicable law or agreed to in writing, software
+			distributed under the License is distributed on an "AS IS" BASIS,
+			WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+			See the License for the specific language governing permissions and
+			limitations under the License.</string>
+
+</resources>

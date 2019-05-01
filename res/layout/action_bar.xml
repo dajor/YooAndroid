@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:enabled="false"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/action_bar_home"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/app_name"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/menubtn"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="fill_parent"
+        android:background="@color/darkgray" />
+
+    <ImageButton
+        android:id="@+id/action_bar_back"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/app_name"
+        android:padding="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arrow_back"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/custom_action_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="8dp" >
+
+        <LinearLayout
+            android:layout_marginRight="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/action_bar_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/action_bar_sub_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/silver"
+                android:visibility="gone" />
+        </LinearLayout>
+
+ 
+        <LinearLayout
+            android:id="@+id/chat_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal" >
+            
+            <TextView
+                android:text="@string/app_name"
+                android:singleLine="true"
+                android:id="@+id/lbl_checkbox_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_checkbox_contact"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/checkbox_off"
+                android:visibility="gone" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_info"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/info_64"
+                android:visibility="gone" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_group"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/group_64"
+                android:visibility="gone" >
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btn_add_chart"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/plus_64"
+                android:visibility="gone" >
+            </ImageButton>
+            
+            <ImageButton
+                android:id="@+id/btn_save"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/ic_menu_save" 
+                android:visibility="gone" >
+            </ImageButton>
+            <!-- drawable.ic_menu_save -->
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

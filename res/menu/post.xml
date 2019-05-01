@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:id="@+id/post_picture"
+                  android:title="@string/picture"/>
+            <item android:id="@+id/post_location"
+                  android:title="@string/location"/>
+            <item android:id="@+id/post_contact"
+                  android:title="@string/contact"/>
+            <item android:id="@+id/post_voice_message"
+			      android:title="@string/voice_message" />
+            
+            <!--item android:id="@+id/post_make_call"
+			      android:title="@string/make_call" / -->
+
+</menu>

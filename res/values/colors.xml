@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="blue">#87ABDC</color>
+    <color name="lightgray">#EEEEEE</color>
+    <color name="darkgray">#424242</color>
+    <color name="gray">#EBEBEC</color>
+    <color name="lightyellow">#FFFFDD</color>
+    <color name="transparent">#80FFFFFF</color>
+    <color name="transparent2">#80000000</color>
+    <color name="black">#000000</color>
+   <color name="white">#FFFFFF</color>
+   
+   <color name="separator_color">#4C4D4D</color>  
+   <color name="theme_color">#91CBD3</color>
+   <color name="transparentTheme_color">#91CBD3</color>
+   <color name="silver">#EBDDDD</color>
+   <color name="red">#FF0000</color>
+   <color name="share_contact">#E6FFE6</color>
+   <color name="voice_message">#F2FFF2</color>
+   <color name="light_blue">#82B9F6</color>
+   
+   
+</resources>

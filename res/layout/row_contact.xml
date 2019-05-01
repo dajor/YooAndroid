@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="52dp" >
+    
+    <RelativeLayout
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:minHeight="40dp" >
+
+        <com.fellow.yoo.utils.RoundImageView
+            android:id="@android:id/icon"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="0dp"
+            android:scaleType="centerCrop" />
+
+        <com.fellow.yoo.utils.RoundImageView
+            android:visibility="gone"
+            android:id="@+id/icon_status"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/online_status" />
+    </RelativeLayout>
+
+    <!-- com.fellow.yoo.utils.RoundImageView
+        android:id="@android:id/icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"
+        android:scaleType="centerCrop" / -->
+
+    <ImageView
+        android:id="@+id/row_selected"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/checkmark"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/btn_call"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+       	android:layout_marginRight="16px"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/phone_48"
+        android:visibility="gone" />
+
+    <TextView
+        android:paddingLeft="50dp"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"
+        android:layout_toLeftOf="@id/row_selected"
+        android:layout_toRightOf="@android:id/icon"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/search_no_results"
+        android:textSize="15sp" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/edittext_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/action_search"
+        android:text="@string/app_name" />
+
+    <!--
+         <ListView
+        android:minHeight="100dp"
+        android:id="@+id/listview_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/SEARCH"
+        android:text="@string/EMPTY" />
+    -->
+
+</LinearLayout>

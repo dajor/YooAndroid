@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/empty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:textColor="@color/darkgray"    
+    android:textAppearance="?android:attr/textAppearanceInverse"
+    android:gravity="center"
+    android:visibility="gone"
+    android:text="@string/search_no_results"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall" />
